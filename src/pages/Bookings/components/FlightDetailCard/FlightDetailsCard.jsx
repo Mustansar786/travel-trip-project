@@ -60,9 +60,7 @@ export function FlightDetailsCard({ tabs, flightDetail, filterCategories }) {
 
             <div className='flex justify-between'>
               <p>{moment(flightDetail?.tours[0]?.tourSegments[0]?.DepartureDateTime).format("hh:mm")}</p>
-              {/* <div className='flex ml-5'>
-             <p>8 hours 25 minutes (1 stop)</p>
-              </div> */}
+             
               <p className='pl-10'>{moment(flightDetail?.tours[0]?.tourSegments[0]?.ArrivalDateTime).format("hh:mm")}</p>
             </div>
 
@@ -87,7 +85,6 @@ export function FlightDetailsCard({ tabs, flightDetail, filterCategories }) {
               <div className='pt-3'>
               <Button variant="text" className="flex items-center gap-2 float-right" onClick={()=>setShowDetail(true)}>
                 Show Detail <img src="http://localhost:5173/src/assets/images/show-detail.png" />
-                {/* <ArrowLongRightIcon strokeWidth={2} className="h-5 w-5" /> */}
               </Button>
             </div>
               </div>
@@ -132,8 +129,6 @@ export function FlightDetailsCard({ tabs, flightDetail, filterCategories }) {
 
             </div>
           </Grid>
-          {/* <Grid item xs={8} md={8} xl={8}>
-          </Grid> */}
           <Grid item xs={4} md={4} xl={4}>
             <div>
 
@@ -215,7 +210,6 @@ export function FlightDetailsCard({ tabs, flightDetail, filterCategories }) {
               <div className='pt-3'>
               <Button variant="text" className="flex items-center gap-2 float-right" onClick={()=>setShowDetail(false)}>
                 Hide Detail <img src="http://localhost:5173/src/assets/images/show-detail.png" />
-                {/* <ArrowLongRightIcon strokeWidth={2} className="h-5 w-5" /> */}
               </Button>
             </div>
               </div>

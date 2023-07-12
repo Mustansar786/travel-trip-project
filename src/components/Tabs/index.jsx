@@ -102,8 +102,6 @@ export default function BasicTabs({tabs, handleSearchFlight, isLoading}) {
              />
             </Grid>
             </Grid>
-        {/* </div> */}
-        {/* <div className='flex'> */}
             <Grid container spacing={2}>
   <Grid item xs={6} md={2} xl={2}>
                 <label className='pt-5 textfield-label global_font_family'>Flying form</label>
@@ -155,7 +153,6 @@ export default function BasicTabs({tabs, handleSearchFlight, isLoading}) {
       <Grid item xs={6} md={2} xl={2}>
                 <label className='pt-5 textfield-label global_font_family pl-2'>Departure</label>
             <Box sx={{ display: 'flex', alignItems: 'flex-end', px:2, py:1 }}>
-            {/* <img src="http://localhost:5173/src/assets/logos/calender.png" width="20px" height="20px" className='pb-1' /> */}
         <TextField id="input-with-sx" type="date" placeholder='Dubai (DXB)' variant="standard"
         value={departure_date}
         onChange={(e)=> setDeparture_Date(e.target.value)}
@@ -165,7 +162,6 @@ export default function BasicTabs({tabs, handleSearchFlight, isLoading}) {
       <Grid item xs={6} md={2} xl={2}>
                 <label className='pt-5 textfield-label global_font_family pl-2'>Arrival</label>
             <Box sx={{ display: 'flex', alignItems: 'flex-end', px:2, py:1 }}>
-            {/* <img src="http://localhost:5173/src/assets/logos/calender.png" width="20px" height="20px" className='pb-1' /> */}
         <TextField id="input-with-sx" type="date" placeholder='Dubai (DXB)' variant="standard" 
         value={arrival_date}
         onChange={(e)=> setArrival_Date(e.target.value)}
@@ -249,7 +245,6 @@ export default function BasicTabs({tabs, handleSearchFlight, isLoading}) {
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-        {/* <div className="flex"> */}
         <Grid container spacing={2}>
         <Grid item xs={6} md={2} xl={2}>
             <ButtonComponent 
@@ -269,8 +264,6 @@ export default function BasicTabs({tabs, handleSearchFlight, isLoading}) {
              />
             </Grid>
             </Grid>
-        {/* </div> */}
-        {/* <div className='flex'> */}
             <Grid container spacing={2}>
   <Grid item xs={6} md={2} xl={2}>
                 <label className='pt-5 textfield-label global_font_family'>Flying form</label>
@@ -325,7 +318,6 @@ export default function BasicTabs({tabs, handleSearchFlight, isLoading}) {
       <Grid item xs={6} md={2} xl={2}>
                 <label className='pt-5 textfield-label global_font_family pl-2'>Departure</label>
             <Box sx={{ display: 'flex', alignItems: 'flex-end', px:2, py:1 }}>
-            {/* <img src="http://localhost:5173/src/assets/logos/calender.png" width="20px" height="20px" className='pb-1' /> */}
         <TextField id="input-with-sx" type="date" placeholder='Dubai (DXB)' variant="standard" 
         value={departure_date} onChange={(e)=> setDeparture_Date(e.target.value)}
         />
@@ -396,10 +388,7 @@ export default function BasicTabs({tabs, handleSearchFlight, isLoading}) {
       {isLoading ? 
       <CircularProgress className='ml-8 mt-5' /> 
       : 
-    //   <ButtonComponent style={{backgroundColor: "#1A97D4", color: "white"}} name="Search" classes="search-button mt-5"
-    //   onClick={()=> handleSubmit()}
-    // //   icon="true" iconName="http://localhost:5173/src/assets/logos/search.png"
-    //    />
+   
     <CustomButton style={{backgroundColor: "#1A97D4", color: "white"}} name="Search" 
       // classes="search-button mt-5"
       onClick={()=> handleSubmit()}
@@ -412,14 +401,7 @@ export default function BasicTabs({tabs, handleSearchFlight, isLoading}) {
        </Grid>
        </Grid>
             
-        {/* </div> */}
       </CustomTabPanel>
-      {/* <CustomTabPanel value={value} index={1}>
-        Item Two
-      </CustomTabPanel>
-      <CustomTabPanel value={value} index={2}>
-        Item Three
-      </CustomTabPanel> */}
       </>
       }
     </Box>

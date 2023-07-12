@@ -21,7 +21,6 @@ export default function OTPDialog({ otp_modal, onClick, otp_value, setState, isL
         <Fragment>
 
             <Dialog open={otp_modal}>
-                {/* <DialogHeader>Its a simple dialog.</DialogHeader> */}
                 <DialogBody className="text-center">
                     <div className="flex items-center justify-center">
                         <img src="http://localhost:5173/src/assets/checked.png" />

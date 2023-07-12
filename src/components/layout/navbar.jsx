@@ -38,10 +38,7 @@ export function Navbar({ brandName, routes, action }) {
               target={target}
               className="flex items-center gap-1 p-1 font-normal"
             >
-              {/* {icon &&
-                React.createElement(icon, {
-                  className: "w-[18px] h-[18px] opacity-75 mr-1",
-                })} */}
+              
               {name}
             </a>
           ) : (
@@ -50,10 +47,7 @@ export function Navbar({ brandName, routes, action }) {
               target={target}
               className="flex items-center gap-1 p-1 font-normal"
             >
-              {/* {icon &&
-                React.createElement(icon, {
-                  className: "w-[18px] h-[18px] opacity-75 mr-1",
-                })} */}
+              
               {name}
             </Link>
           )}
@@ -65,21 +59,10 @@ export function Navbar({ brandName, routes, action }) {
   return (
     <MTNavbar color="transparent" className="p-3">
       <div className="container mx-auto flex items-center justify-between text-white">
-        {/* <Link to="/">
-          <Typography className="mr-4 ml-2 cursor-pointer py-1.5 font-bold">
-            {brandName}
-          </Typography>
-        </Link> */}
+       
         <div className="hidden lg:block">{navList}</div>
         <div className="hidden gap-2 lg:flex">
-          {/* <a
-            href="#"
-            // target="_blank"
-          >
-            <Button variant="text" size="sm" color="white" fullWidth>
-            Language
-            </Button>
-          </a> */}
+          
           {React.cloneElement(action, {
             className: "hidden lg:inline-block",
           })}
@@ -104,15 +87,7 @@ export function Navbar({ brandName, routes, action }) {
       >
         <div className="container mx-auto">
           {navList}
-          {/* <a
-            href="#"
-            // target="_blank"
-            className="mb-2 block"
-          >
-            <Button variant="text" size="sm" fullWidth>
-              Language
-            </Button>
-          </a> */}
+          
           {React.cloneElement(action, {
             className: "w-full block",
           })}

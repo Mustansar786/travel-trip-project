@@ -63,9 +63,7 @@ export function SignUp() {
 
   const action = (
     <React.Fragment>
-      {/* <Button color="secondary" size="small" onClick={handleClose}>
-        UNDO
-      </Button> */}
+      
       <IconButton
         size="small"
         aria-label="close"
@@ -139,9 +137,6 @@ export function SignUp() {
         </Alert>
         </Snackbar>
     </div>
-      {/* <div className="bg-blue-gray-50/50">
-        <Footer />
-      </div> */}
     </>
   );
 }

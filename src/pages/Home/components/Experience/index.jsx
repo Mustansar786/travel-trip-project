@@ -57,15 +57,13 @@ export default function Experience({handleSearchFlight, isLoading}) {
 
           <div className="mt-20 flex flex-wrap items-center">
             <div className="mx-auto mt-24 w-full justify-center px-4 md:w-4/12 lg:mt-0">
-              {/* <Card className="shadow-lg shadow-gray-500/10"> */}
-              {/* <CardHeader className="relative h-56"> */}
+              
               <img
                 alt="Card Image"
                 src="http://localhost:5173/src/assets/unsplash.png"
                 className="h-full w-full "
               />
-              {/* </CardHeader> */}
-              {/* <CardBody> */}
+             
               <Typography
                 variant="h1"
                 color="blue-gray"
@@ -77,8 +75,7 @@ export default function Experience({handleSearchFlight, isLoading}) {
               <Typography className="font-normal text-blue-gray-500">
                 Lörem ipsum krorat ekosiv och sende anime då cringe. Detisk. Egonat. Diren den eftersom sojaren, men poligam.
               </Typography>
-              {/* </CardBody> */}
-              {/* </Card> */}
+              
             </div>
 
             <div className="mx-auto -mt-8 w-full px-4 md:w-5/12 pt-5">

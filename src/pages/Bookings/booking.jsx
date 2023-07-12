@@ -32,9 +32,7 @@ export default function Bookings(props) {
     const response = await search_flights(data);
     console.log(response,"response flight data")
     if(response.status === true){
-        // navigate("/booking", {
-        //     state: response.data
-        //   });
+        
           setData(response.data)
           setIsLoading(false);
     }else{
@@ -47,9 +45,6 @@ export default function Bookings(props) {
 
 const action = (
   <React.Fragment>
-    {/* <Button color="secondary" size="small" onClick={handleClose}>
-      UNDO
-    </Button> */}
     <IconButton
       size="small"
       aria-label="close"

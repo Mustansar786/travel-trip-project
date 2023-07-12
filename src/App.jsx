@@ -29,7 +29,6 @@ function App() {
         <Route path="/customer_detail" element={<CustomerDetail />} />
       </Routes>
 
-      {/* {location.pathname === "/sign-up" && <Footer />} */}
     </>
   );
 }

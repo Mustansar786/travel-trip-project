@@ -1,0 +1,25 @@
+.package_card_image{
+    border-radius: 20px;
+}
+
+.card_heading{
+    color:  #031017;
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+/* font-style: normal; */
+font-weight: 700;
+}
+
+.rating_text{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sub_heading{
+    color:  #5C6366;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}

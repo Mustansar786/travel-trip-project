@@ -1,0 +1,14 @@
+.textfield-label{
+    color:  #031017;
+text-align: center;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: bold;
+line-height: 140%;
+}
+
+.search-button{
+    /* height: 40px; */
+    margin-left: 15px;
+}

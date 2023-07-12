@@ -1,0 +1,21 @@
+.global_font_family{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.signup-card-class{
+    top: 480px
+}
+
+.shadow-md{
+    --tw-shadow: 0 4px 20px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1) !important;
+}
+
+.password-field{
+    -webkit-text-security: disc;
+   /* text-security: disc; */
+}
+
+.font-bold{
+    font-weight: bold;
+    color: black;
+}

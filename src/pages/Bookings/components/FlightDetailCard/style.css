@@ -1,0 +1,38 @@
+.airline-name{
+    color: var(--dark, #031017);
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+}
+
+.ticket-price{
+    color: var(--primary, #1A97D4);
+text-align: right;
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+text-transform: capitalize;
+}
+
+.ellipse{
+    width: 7px;
+     height: 7px;
+}
+
+.vector{
+    height: 2px;
+    /* padding-top: 2px; */
+}
+
+.duration-tickets{
+    border-radius: 10px;
+    border: 1px solid var(--stroke, #E1EDF2);
+    background: var(--light-1, #F2FBFF);
+    padding-left: 30px;
+    padding: 10px;
+}

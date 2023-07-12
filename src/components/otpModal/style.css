@@ -1,0 +1,15 @@
+.sub-text{
+    color: var(--light-text, #5C6366);
+font-family: "Montserrat" sans-serif;
+font-size: 16px;
+font-style: normal;
+/* font-weight: 500; */
+line-height: normal;
+text-transform: capitalize;
+}
+
+input{
+    border-radius: 5px;
+border: 1px solid var(--stroke, #E1EDF2);
+
+}
